@@ -50,7 +50,7 @@ sub countdown {
         system("cat $file; echo");
         print num2ascii($time);
         if ($time == 1 && $beep == 1) {
-            system("paplay beep-01a.wav");
+            system("paplay beep.wav");
         } else {
             sleep(1);
         }
