@@ -6,7 +6,7 @@ use warnings;
 use strict;
 
 sub num2ascii {
-	my ($num) = @_;
+    my ($num) = @_;
     my @digits = split(//, $num);   # Treat each digit separately
     my $toprint = "";
     my %ascii;                      # Hash of arrays for art for each digit
